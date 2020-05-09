@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee24a65d-91a3-434f-9b5a-da1b9a096d1c" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/controllers/basecontroller.py" beforeDir="false" afterPath="$PROJECT_DIR$/module/controllers/basecontroller.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/controllers/findusercontroller.py" beforeDir="false" afterPath="$PROJECT_DIR$/module/controllers/findusercontroller.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/controllers/makeusercontroller.py" beforeDir="false" afterPath="$PROJECT_DIR$/module/controllers/makeusercontroller.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/controllers/usercontroller.py" beforeDir="false" afterPath="$PROJECT_DIR$/module/controllers/usercontroller.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/databaseaction/databaseaction.py" beforeDir="false" afterPath="$PROJECT_DIR$/module/databaseaction/databaseaction.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/form.py" beforeDir="false" afterPath="$PROJECT_DIR$/module/form.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/module/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/module/templates/base.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/users/baseuser.py" beforeDir="false" afterPath="$PROJECT_DIR$/module/users/baseuser.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/users/nouser.py" beforeDir="false" afterPath="$PROJECT_DIR$/module/users/nouser.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/module/users/user.py" beforeDir="false" afterPath="$PROJECT_DIR$/module/users/user.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/specialcase/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/specialcase/settings.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
