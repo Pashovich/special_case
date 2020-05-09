@@ -5,10 +5,13 @@ from module.databaseaction.databaseaction import DatabaseActions
 
 
 class FindUserController(BaseController):
+    __usersInfoList = []
+    def __init__(self):
+        super().__init__()
+
     def get(self, request):
-        return render(request, 'findform.html', {'form': Form(), 'answer': ''})
+        return render(request, 'findform.html', {'form': Form()})
 
     def post(self, request):
-        users = DatabaseActions().getAllUsersByName(request.data['name'])
-        userList = [item.getInfo() for item in users]
-        return render(request, 'findform.html', {'form': Form(data = request.data), 'resultList': userList})
+        self.__usersInfoList = self._databaseObject.getAllUsersByName(request.data['name'])
+        return render(request, 'findform.html', {'form': Form(data = request.data), 'resultList': self.__usersInfoList})

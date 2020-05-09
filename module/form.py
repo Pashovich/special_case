@@ -1,8 +1,8 @@
 from django import forms
-from .models import FormModel
+from .models import ModelData
 
 
 class Form(forms.ModelForm):
     class Meta:
-        model = FormModel
+        model = ModelData
         fields = ['name', 'email']
