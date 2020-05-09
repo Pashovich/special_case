@@ -5,3 +5,4 @@
 * For local deployment run
     - pip3 install requirements.txt
     - python3 manage.py runserver
+* Сидоров Павел Вячеславович 931704
