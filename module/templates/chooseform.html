@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% load static %}
+<link rel="stylesheet" href="{% static 'css/styles.css' %}">
+{% block content %}
+<ul class="list-group">
+    <li class="list-group-item"><a href="make-user">Make user</a></li>
+    <li class="list-group-item"><a href="find-user">Find users</a></li>
+</ul>
+{% endblock %}

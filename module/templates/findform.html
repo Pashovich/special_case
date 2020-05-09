@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+{% block content %}
+<form method="POST" class="post-form">{% csrf_token %}
+    {{form.name}}
+    <button type="submit" class="save btn btn-outline-primary">Find</button>
+</form>
+{% if resultList %}
+    <ul>
+    {% for item in resultList%}
+        <li>{{item}}</li>
+    {%endfor %}
+    </ul>
+{%endif%}
+{% endblock %}
